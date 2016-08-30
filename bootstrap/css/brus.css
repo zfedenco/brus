@@ -1,0 +1,17 @@
+.heder{
+  height: 450px;
+  background: url("/home/zoya/BRUS/images/hed2.png") center no-repeat;
+  padding-top:0;
+}
+.right{
+  width: 250px;
+  float: right;
+  margin: 30px 100px 10px 0;
+}
+.form-heder{
+  background: #646464;
+  color: #ffffff;
+}
+.btn{
+float: right;
+}
