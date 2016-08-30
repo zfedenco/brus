@@ -59,12 +59,20 @@
             <li><a href="#">Галерея</a></li>
             <li><a href="#">Ваканции</a></li>
               </ul>
-              <button type="button" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-search"></span> </button>
+              <button type="button" class="btn btn-default btn-lg" data-toggle="collapse"data-target="#hide-me">
+                  <span class="glyphicon glyphicon-search"></span> </button>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
   </div>
-
+  <div class="container">
+  <div id="hide-me" class="collapse">
+    <div class="input-group">
+  <input type="text" class="form-control" placeholder="Username">
+  <span class="input-group-addon">Поиск</span>
+</div>
+  </div>
+</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
