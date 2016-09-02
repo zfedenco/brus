@@ -4,14 +4,56 @@
   padding-top:0;
 }
 .right{
-  width: 250px;
+  width: 310px;
   float: right;
   margin: 30px 100px 10px 0;
 }
-.form-heder{
+.logo{
+  margin-left: 50px;
+}
+.right-logo{
+  width:270px;
   background: #646464;
+  padding:5px 25px 10px 22px;
+}
+.form-heder{
+  width: 230px;
+  padding:0 auto;
   color: #ffffff;
 }
+.form-heder a{
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  color:#b2f720;
+  border-bottom: dotted;
+}
+.form-right{
+  width: 230px;
+  height: 35px;
+}
+.button-right {
+  background: #b2f720;
+  width: 230px;
+}
 .btn{
+background: #b2f720;
 float: right;
+}
+.nav{
+  background:#b2f720;
+  height:50px;
+}
+.nav a{
+  margin-left: 10px;
+  color:#000000;
+  font-size: 20px;
+}
+.form-nav{
+  width: 100%;
+  padding: 20px;
+}
+.pk{
+  background:#646464;
+  height: 80px;
 }
