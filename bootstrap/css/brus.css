@@ -82,6 +82,16 @@ border: 2px solid  #ffffff;
 }
 .galeri a:hover{
 color: #ffffff;}
-.mini{
-  left: 0;
+.mini {
+  position: fixed;
+  left: 10px;
+  top: 490px;
+}
+.mini a {
+    text-decoration: none;
+    color: #646464;
+}
+.mini a:hover{
+  color: #11110f;
+  text-decoration: underline;
 }
