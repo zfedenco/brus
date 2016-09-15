@@ -49,6 +49,9 @@ float: right;
   color:#000000;
   font-size: 20px;
 }
+.menu a:hover{
+  color:#d30000;
+}
 .form-nav{
   width: 100%;
   padding: 20px;
@@ -68,9 +71,17 @@ float: right;
   border-radius: 50%;
   float: left;
 }
+.gal:hover{
+border: 2px solid  #ffffff;
+}
 .galeri a{
   margin: 45px 0 45px 15px;
-  color: #ffffff;
+  color: #c0c0c0;
   text-decoration: none;
   font-size: 20px;
+}
+.galeri a:hover{
+color: #ffffff;}
+.mini{
+  left: 0;
 }
