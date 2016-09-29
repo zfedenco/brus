@@ -117,7 +117,7 @@ color: #ffffff;}
     color: white;
 }
 .cat-line .tab-item{
-  height: 400px;
+  height: 325px;
 }
 .cat-line .tab-item {
     width: 32%;
@@ -193,4 +193,85 @@ color: #ffffff;}
     background: url("../../images/sprite.png") 0px -16px;
     top: -30px;
     right: 15px;
+}
+.cat-descr{
+  position: relative;
+}
+.cat-descr > span {
+    margin-left: 0;
+    padding-left: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    color: #858585;
+    font-size: 16px;
+    font-weight: 500;
+}
+span.tab-size::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    position: absolute;
+    height: 18px;
+    vertical-align: middle;
+    background: url("../../images/sprite.png") -37px 0px;
+    top: 24px;
+    left: 22px;
+}
+span.tab-square {
+    display: inline-block;
+    color: #858585;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-top: 14px;
+    position: relative;
+    margin-left: 14px;
+    padding-left: 23px;
+}
+span.tab-square::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    position: absolute;
+    height: 18px;
+    vertical-align: middle;
+    background: url("../../images/sprite.png") -57px 0px;
+    top: 14px;
+    left: 2px;
+}
+span.cat-floor {
+    display: inline-block;
+    color: #858585;
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 14px;
+    position: relative;
+    padding-left: 15px !important;
+}
+.tab-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    background: rgba(64, 64, 64, 0.7);
+    display:none;
+}
+.tab-shadow div {
+    width: 36px;
+    height: 36px;
+    background: url("../../images/sprite.png") -44px -19px;
+    margin: auto;
+    margin-top: 120px;
+}
+.tab-shadow p {
+    color: white;
+    font-size: 18px;
+    padding-top: 8px;
+    font-weight: 700;
+}
+.tab-shadow:hover{
+  display: block;
 }
