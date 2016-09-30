@@ -272,6 +272,6 @@ span.cat-floor {
     padding-top: 8px;
     font-weight: 700;
 }
-.tab-shadow:hover{
-  display: block;
+.tab-item a:hover.tab-shadow {
+  display:block;
 }
