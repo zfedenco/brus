@@ -272,6 +272,50 @@ span.cat-floor {
     padding-top: 8px;
     font-weight: 700;
 }
-.tab-item a:hover.tab-shadow {
+.tab-item>a:hover .tab-shadow {
   display:block;
+}
+.category .paginatio.right-dootom {
+    padding-top: 24px;
+    margin-bottom: 15px;
+}
+.right-dootom{
+  float: right;
+}
+.right-dootom a:hover{
+  color: #11110f;
+}
+.pag-first {
+    padding-right: 23px;
+    font-size: 14px;
+    font-family: verdana;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+}
+.pag-active {
+    color: #404040;
+    font-size: 16px;
+}
+.pag-number {
+    display: inline-block;
+    background: #e4e4e4;
+    padding: 1px 8px;
+    font-size: 24px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #858585;
+}
+.pag-current {
+    background: #404040;
+    color: white;
+}
+.pag-end {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 24px;
+    position: relative;
+    padding-right: 23px;
+    font-size: 14px;
+    font-family: verdana;
 }
