@@ -40,6 +40,9 @@
 background: #b2f720;
 float: right;
 }
+.btn:hover{
+background: #b2f720;
+}
 .nav{
   background:#b2f720;
   height:50px;
@@ -49,7 +52,7 @@ float: right;
   color:#000000;
   font-size: 20px;
 }
-.nav>li>a:hover{
+.navbar-nav a:hover{
   color:#d30000;
 }
 .form-nav{
@@ -405,6 +408,8 @@ a.fb {
     color: #858585;
 }
 .right-menu {
+    display:none;
+    position:fixed;
     position: fixed;
     top: 65%;
     z-index: 50;
@@ -431,7 +436,7 @@ a:hover {
 .affix {
       top: 0;
       width: 100%;
-        z-index: 100;
+      z-index: 100;
   }
 
   .affix + .container-fluid {

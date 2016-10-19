@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap Template</title>
+    <title>Brus</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -16,6 +16,20 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src='jquery.js' type='text/javascript'></script>
+    <script type='text/javascript'>
+    $(document).ready(function(){
+      $(window).scroll(function(){
+     if($(window).scrollTop()>400){
+     $('#r-menu').show()
+  })
+  })
+
+  })
+
+
+      </script>
+</head>
     <body>
       <div class="heder container-fluid ">
         <div class="container">
@@ -40,7 +54,7 @@
     </div>
       <div class="nav">
           <nav class="navbar navbar-inverse nav" data-spy="affix" data-offset-top="480">
-          
+
 
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
