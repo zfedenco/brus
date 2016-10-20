@@ -410,8 +410,7 @@ a.fb {
 .right-menu {
     display:none;
     position:fixed;
-    position: fixed;
-    top: 65%;
+      top: 65%;
     z-index: 50;
     right: 0;
     width: 142px;
@@ -433,13 +432,158 @@ a.fb {
 a:hover {
     text-decoration: none;
 }
-.affix {
-      top: 0;
+.wrar{
+    z-index: 100;
+    display: none;
+    position: fixed;
+    top:0;
+  }
+  .fix-menu {
+    background: #b2f720;
+      margin-top: 400px;
+      z-index: 50;
+      position: fixed;
       width: 100%;
-      z-index: 100;
+      top: 0;
+  }
+  .fix-menu > .menu-row {
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25);
+  }
+  .button-menu:hover {
+      transform: rotate(180deg);
+  }
+  .button-menu {
+      width: 30px;
+      height: 21px;
+      cursor: pointer;
+      float: left;
+      background: url("../../images/sprite.png");
+      background-position: -109px -19px;
+      margin-top: 10px;
+      transition: 0.2s;
+      margin-bottom: 10px;
+  }
+  .fix-menu-right {
+      float: right;
+      padding-top: 7px;
+  }
+  .fix-menu-right a {
+      font-size: 14px;
+      border-bottom: 1px dashed;
+      display: inline;
+      padding: 0;
+      font-weight: 300;
+      text-transform: none;
+      margin-right: 20px;
+  }
+  .menu-row a {
+      display: inline-block;
+      position: relative;
+      color: #404040;
+      padding: 8px 34px;
+      font-size: 16px;
+      text-decoration: none;
   }
 
-  .affix + .container-fluid {
-      padding-top: 480px;
-      z-index: 100;
+  .menu-row a:hover, .menu-row a.active {
+      color: #ff4200;
+  }
+  a:active, a:hover {
+      outline: 0;
+  }
+  .fix-menu-right>span {
+      font-size: 18px;
+      font-weight: 500;
+  }
+  .fix-text {
+      text-align: center;
+      height: 40px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  .fix-text a {
+      background: url("../../images/logo2.png") center center no-repeat;
+      height: 40px;
+      width: 300px;
+  }
+  .ht{
+     min-height: 30px;
+     background: #222;
+  }
+  .item-row a{
+    margin-left: 10px;
+    color:#c0c0c0;
+    font-size: 18px;
+    t
+  }
+  .item-rowa a:hover{
+    color: #ffffff;
+  }
+  .wrar_bg{
+     z-index: 70;
+      height:100%;
+      width:100%;
+      background-color: rgba(90, 92, 94, 0.8);
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+  .popur-wrar {
+    position: fixed;
+    top: 550px;
+    left: 400px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    z-index: 200;
+    width: 445px;
+    height: auto;
+    background: #404040;
+    box-shadow: 0 0 15px 5px #ffffff;
+  }
+  .popur-wrar p {
+      color: #858585;
+      text-align: center;
+      font-size: 15px;
+      margin: 5px;
+  }
+  .popur-wrar  b {
+      color: #ff4302;
+  }
+  .fopm-popur{
+    padding: 20px;
+  }
+  input{
+    width: 100%;
+  }
+  .input{
+    color: #404040;
+    text-align: center;
+  }
+  .submit{
+    padding: 5px;
+    background: #ff4200;
+    color: #ffffff;
+  }
+  .close{
+    z-index: 120;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    background: url("../images/sprite.png");
+    background-position: -70px -60px;
+  }
+  .close:hover {
+      background-position: -50px -60px;
+  }
+  .close:active{
+    #hide-bg{display: none;}
   }

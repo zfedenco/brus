@@ -18,17 +18,20 @@
     <![endif]-->
     <script src='jquery.js' type='text/javascript'></script>
     <script type='text/javascript'>
-    $(document).ready(function(){
-      $(window).scroll(function(){
-     if($(window).scrollTop()>400){
-     $('#r-menu').show()
-  })
-  })
+     jQuery(function(f){
+     var element = f('#r-menu');
+     f(window).scroll(function(){
+       element['fade'+ (f(this).scrollTop() > 200 ? 'In': 'Out')](500);
+   });
+});
+jQuery(function(f){
+var element1 = f('#wrar-menu');
+f(window).scroll(function(){
+  element1['fade'+ (f(this).scrollTop() > 200 ? 'In': 'Out')](500);
+});
+});
+  </script>
 
-  })
-
-
-      </script>
 </head>
     <body>
       <div class="heder container-fluid ">
@@ -53,7 +56,7 @@
       </div>
     </div>
       <div class="nav">
-          <nav class="navbar navbar-inverse nav" data-spy="affix" data-offset-top="480">
+          <nav class="navbar navbar-inverse nav">
 
 
       <div class="container-fluid">
@@ -498,14 +501,73 @@
       </div>
     </div>
   </div>
+  </div>
   <div id="r-menu" class="right-menu">
     <a class="r-m-item"href="#">Расчет дома</a>
     <a class="r-m-item"href="#">Каталог</a>
     <a class="r-m-item"href="#">Отзиви</a>
     <a class="r-m-item"href="#">Вопрос ответ</a>
   </div>
-</div>
+<div id="wrar-menu" class="wrar">
+<div class="fix-menu"data-spy="affix" data-offset-top="197">
+  <div class="fluid-container menu-row">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="button-menu" data-toggle="collapse"data-target="#hide-max"></div>
+          <div class="fix-menu-right">
+            <a id="form" href="#"data-toggle="collapse"
+            data-target="#hide-bg">Обратний звонок</a>
+            <span>8 (960) 204-15-79</span>
+          </div>
+          <div class="fix-text">
+            <a href="#"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+<div id="hide-max" class="collapse">
+<div class=" ht fluid-container item-row ">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class=" nav navbar-inverse">
+        <ul class="nav navbar-nav">
+            <li><a href="#"class="menu">Главная</a></li>
+            <li><a href="#spoiler-2"  data-toggle="collapse" class="menu">Проекти &#8595;</a></li>
+            <li><a href="#"class="menu">Акции</a></li>
+            <li><a href="#"class="menu">О компании</a></li>
+            <li><a href="#"class="menu">Галерея</a></li>
+            <li><a href="#"class="menu">Ваканции</a></li>
+        </ul>
+      </nav>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+<div id="hide-bg" class="collapse">
+<div class="wrar_bg"></div>
+
+<div class="popur-wrar">
+    <div>
+      Заказать обратний
+      <b>звонок</b>
+      <p>Маленький текст</p>
+    </div>
+    <div class="fopm-popur">
+      <input class="input" type="email" name="email"placeholder="*Ваш email" id="email">
+      <br>
+      <input class="submit"type="submit" value="Позвоните мне">
+    </div>
+    <a class="close" href="#"></a>
+
+</div>
+</div>
+</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
