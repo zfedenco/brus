@@ -44,6 +44,7 @@ float: right;
 background: #b2f720;
 }
 .nav{
+  border: none;
   background:#b2f720;
   height:50px;
 }
@@ -52,8 +53,8 @@ background: #b2f720;
   color:#000000;
   font-size: 20px;
 }
-.navbar-nav a:hover{
-  color:#d30000;
+.nav a:hover{
+  color:#red;
 }
 .form-nav{
   width: 100%;
@@ -440,7 +441,7 @@ a:hover {
   }
   .fix-menu {
     background: #b2f720;
-      margin-top: 400px;
+      margin-top:0px;
       z-index: 50;
       position: fixed;
       width: 100%;
@@ -506,9 +507,12 @@ a:hover {
       height: 40px;
       width: 300px;
   }
-  .ht{
-     min-height: 30px;
-     background: #222;
+
+  .item-row ul{
+    background: #222;
+  }
+  .item-row{
+  background: #222;
   }
   .item-row a{
     margin-left: 10px;
@@ -520,19 +524,22 @@ a:hover {
     color: #ffffff;
   }
   .wrar_bg{
-     z-index: 70;
-      height:100%;
-      width:100%;
-      background-color: rgba(90, 92, 94, 0.8);
-      position: absolute;
-      top:0;
-      bottom: 0;
-      left: 0;
-      right: 0;
+    z-index: 180;
+    height:100%;
+    width:100%;
+    background: #6d6d6d;
+    opacity: 0.5;
+    display: none;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   .popur-wrar {
+    display: none;
     position: fixed;
-    top: 550px;
+    top: 100px;
     left: 400px;
     color: white;
     text-align: center;
@@ -578,7 +585,7 @@ a:hover {
     width: 19px;
     height: 19px;
     cursor: pointer;
-    background: url("../images/sprite.png");
+    background: url("../../images/sprite.png");
     background-position: -70px -60px;
   }
   .close:hover {
